@@ -1,0 +1,10 @@
+// Config file - iSaber
+led=700,0,0,0
+qon=100
+qoff=100
+vol=4
+loop=0
+shuffle=1
+pause=1
+flks=2
+flkd=0
