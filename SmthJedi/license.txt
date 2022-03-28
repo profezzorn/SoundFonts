@@ -1,2 +1,3 @@
+Smoothswing sound font for ProffieOS by Thexter.
 These files are free to use, modify, and redistribute without attribution or any other restrictions.
 boot.wav made by Brian Conner using a few with sounds sourced from creative-commons licensed freesound.org.
