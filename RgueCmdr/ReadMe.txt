@@ -7,13 +7,16 @@ Any additional sounds sourced from creative-commons licensed freesound.org.
 This ReadMe.txt added.
 Hierarchy made to be FAT32 friendly.
 
-config.ini added with applicable parameters.
-- Titled top line "RgueCmdr config.ini"
+Both .ini files have added link to their respective Wiki page for full descriptions and default values.
+
+config.ini edited.
+- Added "RgueCmdr config.ini"
 - humstart set to 636, other values use defaults.
+- Link to Wiki page added
 
 smoothsw.ini edited. 
 - Added "# RgueCmdr smoothsw.ini"
-- Descriptions updated.
+- Link to Wiki page added
 
 bgnlock: Created from existing lock and additional sounds.
 
@@ -25,7 +28,3 @@ Better mix balance now and falls in line with the majority of other font levels.
 out: normalized to 0dB, full fade out at end.
 
 clsh: Removed excess silences and normalized to 0dB. clsh09 also HP @100Hz.
-
-config.ini added. 
-- Titled top line "RgueCmdr config.ini"
-- humstart set to 636, other values use defaults.
