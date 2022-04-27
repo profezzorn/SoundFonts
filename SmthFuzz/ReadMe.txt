@@ -7,6 +7,7 @@ Any additional sounds sourced from creative-commons licensed freesound.org.
 
 Hierarchy made to be FAT32 friendly.
 Added boot.wav.
+Added endlock made from lock + SmthGrey clash04.
 Added config.ini.
 Edited smoothsw.ini.
 hum.wav Normalized to -5db.
