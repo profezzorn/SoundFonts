@@ -11,7 +11,7 @@ Hierarchy made to be FAT32 friendly.
 
 clsh10.wav's end faded out so as to not end so abruptly.
 
-humstart adjusted to 1800, leaving ~100ms initial "punch" of out wav clear.
+ProffieOSHumDelay set to 100ms to accomodate multiple varying length out.wavs
 
 Smoothswing pair 1 was over-modulated and distorted. Removed and left remaining 7 pairs.
 
