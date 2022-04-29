@@ -1,7 +1,7 @@
 // CODA blade style for ProffieOS 5.9 and up
 //
 StylePtr<Layers<
-  //Rotates   ^3 times per minute between DodgerBlue and DeepSkyBlue with subtle Cyan/Blue audioflicker
+  //Rotates 3 times per minute between DodgerBlue and DeepSkyBlue with subtle Cyan/Blue audioflicker
   Mix<Sin<Int<3>>,AudioFlicker<RotateColorsX<Variation,DodgerBlue>,Stripes<5000,-90,RotateColorsX<Variation,Rgb<0,55,165>>,RotateColorsX<Variation,Rgb<0,85,115>>,RotateColorsX<Variation,Rgb<0,65,145>>,RotateColorsX<Variation,Rgb<0,30,185>>>>,AudioFlicker<RotateColorsX<Variation,Rgb<0,155,255>>,Stripes<5000,-90,RotateColorsX<Variation,Rgb<0,95,170>>,RotateColorsX<Variation,Rgb<0,115,215>>,RotateColorsX<Variation,Rgb<0,145,145>>,RotateColorsX<Variation,Rgb<0,65,225>>>>>,
   //Alternate DeepSkyBlue with very subtle audioflicker
   //AudioFlicker<RotateColorsX<Variation,DeepSkyBlue>,RotateColorsX<Variation,Rgb<0,95,195>>>,
