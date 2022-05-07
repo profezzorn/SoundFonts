@@ -1,0 +1,137 @@
+OS 6 Prompts (8 character limit)
+
+Fett263 Menu Prompts
+Enter Edit Mode
+medit.wav - (leading 1 sec delay)  "Edit Mode"
+
+Menu Names
+mmain.wav - "Main Menu"
+mpreset.wav - "Select Preset"
+mstyle.wav - "Edit Style"
+mcolor.wav - "Edit Color"
+mfont.wav - "Edit Font"
+mtrack.wav - "Edit Track"
+msetting.wav - "Edit Settings"
+mcopy.wav - "Copy Preset"
+mdelete.wav - "Delete Preset"
+mblade.wav - "Select Blade"
+meffect.wav - "Select Effect"
+msetsub.wav - "Settings Menu"
+mcontrol.wav - "Edit Control Settings"
+mlength.wav - "Edit Blade Length"
+mclashth.wav - "Edit Clash Threshold"
+mgesture.wav - "Edit Gestures"
+mvolume.wav - "Edit Volume"
+mdim.wav - "Edit Brightness"
+mgestsub.wav - "Gesture Menu"
+mcolorsb.wav - "Color Menu"
+mcolorlt.wav - "Color List"
+mcolorop.wav - "Color Options"
+mstylset.wav - "Edit Style Settings"
+mstylstm.wav - "Style Settings"
+
+Color Editing
+mwhite.wav - "Adjust White Level"
+mhue.wav - "Adjust Color Hue"
+mblack.wav - "Adjust Black Level"
+mcopyc.wav - "Copy Colors"
+mbase.wav - "Base Color"
+malt.wav - "Alt Color"
+mblast.wav - "Blast Color"
+mclash.wav - "Clash Color"
+mdrag.wav - "Drag Color"
+memitter.wav - "Emitter Color"
+mignite.wav - "Ignition Color"
+mlb.wav - "Lightning Block Color"
+mlockup.wav - "Lockup Color"
+mmelt.wav - "Melt Color"
+moff.wav - "Off Color"
+mpreon.wav - "Preon Color"
+mpstoff.wav - "Post Off Color"
+mretract.wav - "Retraction Color"
+mstab.wav - "Stab Color"
+mswing.wav - "Swing Color"
+
+Menu Sounds
+mdown.wav - (sound for decreasing value)
+mselect.wav - (sound for selected menu/item "affirmative")
+mup.wav - (sound for increasing value)
+mzoom.wav - (sound for zooming in - Color Zoom)
+
+Menu Control Prompts
+maccept.wav - "Accept"
+mauto.wav - "Auto"
+maffirm.wav - "Confirm Selection"
+mcancel.wav = "Cancel"
+mconfirm.wav - "Confirm"
+mdefault.wav - "Default"
+mdisable.wav - "Disable"
+menable.wav - "Enable"
+mexit.wav - "Exit"
+mmax.wav - "Maximum Setting"
+mmin.wav - "Minimum Setting"
+mresetc.wav - "Reset Colors"
+mrevert.wav - "Revert"
+msave.wav - "Save"
+moption.wav - "Select Option"
+mfalse.wav - "Disabled"
+mtrue.wav - "Enabled"
+mvolmax.wav - "Maximum Volume"
+mvolmin.wav - "Minimum Volume"
+
+Track Player
+mloop.wav - "Loop"
+mrandom.wav - "Random"
+mrotate.wav - "Rotate"
+
+Numbers
+mnum1.wav ~ mnum20.wav - numbers 1 through 20 supported
+mzero.wav - "Zero"
+
+Spoken Battery Level
+mbatt.wav - "Battery Level"
+mpercent.wav - “Percent”
+mpoint.wav - "Point" (like decimal)
+mvolts.wav - "Volts"
+
+Control Setting Prompts
+mgestoff.wav - "Gestures Off"
+mgeston.wav - "Gestures On"
+mlockdly.wav - "Lockup Delay"
+mpush.wav - "Force Push"
+mpushlen.wav - "Force Push Length"
+mpwrlock.wav - "Power Lock"
+mstabon.wav - "Stab Ignition"
+mswingon.wav - "Swing Ignition"
+mswingsp.wav - "Swing On Speed"
+mthrston.wav - "Thrust Ignition"
+mtwstoff.wav - "Twist Retraction"
+mtwiston.wav - "Twist Ignition"
+
+Style Setting Prompts
+mdragsz.wav - "Drag Size"
+memitsz.wav - "Emitter Size"
+migopt.wav - "Ignition Options"
+mintime.wav - "Retraction Time"
+mpreopt.wav - "Preon Options"
+mlockpos.wav - "Clash, Lockup Position"
+mlocksz.wav - "Clash, Lockup Size"
+mmeltsz.wav - "Melt Size"
+mouttime.wav - "Ignition Time"
+mpreonsz.wav - "Preon Size"
+mprespd.wav - "Preon Length"
+mpstofsz.wav - "Post Off Size"
+mrtopt.wav - "Retraction Options"
+
+Battle Mode
+bmbegin.wav - "Battle Mode"
+bmend.wav - "End Battle Mode"
+
+Rehearsal / Choreography Mode
+chreobgn.wav - (leading 1 sec delay) "Begin Choreography"
+chreoend.wav - "End Choreography"
+nochreo.wav - "No Choreography Available"
+rehrsend.wav - "End Rehearsal"
+rehrsbgn.wav - (leading 1 sec delay) "Begin Rehearsal"
+rehrsnew.wav - "Replace Rehearsal"
+rehrsold.wav - "Keep Rehearsal"
