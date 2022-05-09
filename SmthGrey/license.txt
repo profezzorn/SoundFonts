@@ -1,1 +1,11 @@
 These files are free to use, modify, and redistribute without attribution or any other restrictions.
+
+Modifications by Brian Conner 2022:
+Detailed changes can be found in this font's ReadMe.txt.
+Any additional sounds sourced from creative-commons licensed freesound.org.
+Freesound is a collaborative database of Creative Commons Licensed sounds.
+The sounds and sound-metadata published by Freesound on the interactive services
+are distributed under the Creative Commons license indicated for each item and
+chosen by the author or User. Unless otherwise indicated in this way, all other 
+content on Freesound Site and platform is licensed under the CC-BY 4.0 license.
+https://creativecommons.org/licenses/by/4.0/deed.en
