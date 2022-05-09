@@ -10,5 +10,6 @@ Added boot.wav made from some sci-fi sound.
 Added endlock.wav made from lock + SmthGrey clash04.
 Added config.ini.
 Edited smoothsw.ini to updated descriptions and parameter options.
-Normalized hum to -5db
-Normalized lock to 0db
+Normalized hum to -5dB
+Normalized lock to 0dB
+Normalized out to 0dB
