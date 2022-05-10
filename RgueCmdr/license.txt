@@ -2,7 +2,7 @@ These files are free to use, modify, and redistribute without attribution or any
 
 Modifications by Brian Conner 2022:
 Detailed changes can be found in this font's ReadMe.txt.
-Any additional sounds sourced from creative-commons licensed freesound.org.
+Sounds for lock.wav sourced from creative-commons licensed freesound.org.
 Freesound is a collaborative database of Creative Commons Licensed sounds.
 The sounds and sound-metadata published by Freesound on the interactive services
 are distributed under the Creative Commons license indicated for each item and
