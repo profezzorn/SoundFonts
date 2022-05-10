@@ -2,7 +2,7 @@ RgueCmdr
 Smoothswing sound font for ProffieOS by Thexter.
 
 Modifications by Brian Conner 2022:
-Any additional sounds sourced from creative-commons licensed freesound.org.
+Sounds for lock.wav sourced from creative-commons licensed freesound.org.
 See license.txt for more details..
 
 This ReadMe.txt added.
