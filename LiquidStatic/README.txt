@@ -3,7 +3,8 @@ June 2022
 Made exclusively for Proffie soundboards
 www.blueforcecompany.com
 
-This sound font is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. See license.txt for details.
+This sound font is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+See license.txt for details.
 Alternately, see <http://creativecommons.org/licenses/by-sa/4.0/>.
 
 
