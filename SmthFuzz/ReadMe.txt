@@ -16,4 +16,5 @@ Edited smoothsw.ini. Default values are commented out.
 hum.wav normalized to -5db, EQ'd out some low end, accentuated more "bite" ~4k.
 Mixed in some fading hum to beginning of in.wav to ensure smooth transition.
 out.wav normalized to 0dB, high passed @100Hz and fade out full.
-Edited lock to loop cleanly and have less monophonic-like hum mixed in.
+Edited lock to loop cleanly and have less monophonic-like hum element,
+with some addtional crackling mixed in.
