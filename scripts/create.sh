@@ -1,7 +1,7 @@
 #!/bin/sh
 
 mkdir ProffieOS_SD_Card
-for dir in TeensySF RgueCmdr SmthFuzz SmthGrey SmthJedi TeensySF tracks TthCrstl
+for dir in TeensySF CODA LiquidStatic  RgueCmdr SmthFuzz SmthGrey SmthJedi TeensySF tracks TthCrstl
 do
     cp -rv ../$dir ./ProffieOS_SD_Card/
 done
