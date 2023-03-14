@@ -15,3 +15,4 @@ All Fx and mixdowns/mastering done primarily in Reaper (http://www.reaper.fm) wi
 
 Modification by Brian Conner 2022.
 Hum volume normalized to -5dB to bring mix balance more inline with most other fonts.
+font.wav generated from FreeTTS and processed.
