@@ -222,6 +222,7 @@ add_sl_sound "mcolrst" Reset To Default Color
 add_sl_sound "mbld" Blade  
 add_sl_sound "mseconds" Seconds  
 add_sl_sound "mbuzz" end
+add_sl_sound "msdacc" SD Access
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
 
