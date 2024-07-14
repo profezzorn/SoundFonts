@@ -8,14 +8,16 @@ LANGUAGE="${1-en}"
 DIR="voice_$LANGUAGE"
 
 add_sl_sound() {
-    output="$DIR/$1.wav"
+  output="$DIR/$1.wav"
+  if [ ! -f "$output" ]; then
     odir=$(dirname "$output")
     echo "ODIR: $odir"
     mkdir -p $odir
     shift
     echo "$*" > in.txt
     ./speak.pl $LANGUAGE in.txt out.mp3
-    sox out.mp3 "$output" rate 44100 
+    sox out.mp3 "$output" rate 44100
+  fi
 }
 
 
@@ -74,8 +76,8 @@ add_sl_sound "sixty" 60
 add_sl_sound "seventy" 70  
 add_sl_sound "eighty" 80  
 add_sl_sound "ninety" 90  
-add_sl_sound "hundred" 100  
-add_sl_sound "thousand" 1000  
+add_sl_sound "hundred" hundred
+add_sl_sound "thousand" thousand
 add_sl_sound "mpoint" Point  
 add_sl_sound "maccept" Accept  
 add_sl_sound "mblack" Adjust Black Level  
