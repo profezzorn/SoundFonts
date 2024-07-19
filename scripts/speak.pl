@@ -341,6 +341,7 @@ sub SentenceToMp3() {
 		return "";
 	}
 	open(FILE,">$mp3_out");
+	binmode(FILE);  # Treat as binary file
 	print FILE $resp;
 	close(FILE);
 	return $mp3_out;
