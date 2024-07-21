@@ -101,8 +101,8 @@ add_sl_sound "mconfirm" Confirm
 add_sl_sound "maffirm" Confirm Selection  
 add_sl_sound "mcooldwn" Cool Down Options  
 add_sl_sound "mcopyc" Copy Colors  
-add_sl_sound "mcopy" Copy Preset  
-add_sl_sound "mdelete" Delete Preset  
+add_sl_sound "mcopy" Copy Pre-set  
+add_sl_sound "mdelete" Delete Pre-set  
 add_sl_sound "mfalse" Disabled  
 add_sl_sound "mdown"  Down  
 add_sl_sound "mdrag" Drag Color  
@@ -122,7 +122,7 @@ add_sl_sound "mvolume" Edit Volume
 add_sl_sound "memitter" Emitter Color  
 add_sl_sound "memitsz" Emitter Size  
 add_sl_sound "mtrue" Enabled  
-add_sl_sound "vmbegin" Enter Volume Menu  
+add_sl_sound "vmbegin" Volume Menu  
 add_sl_sound "mexit" Exit  
 add_sl_sound "mpush" Force Push  
 add_sl_sound "mpushlen" Force Push Length  
@@ -154,14 +154,14 @@ add_sl_sound "mpercent" Percent
 add_sl_sound "mpstoff" Post Off Color  
 add_sl_sound "mpwrlock" Power Lock  
 add_sl_sound "mpwrup" Power Up Options  
-add_sl_sound "mpreon" Preon Color  
-add_sl_sound "mpreopt" Preon Options  
-add_sl_sound "mpreonsz" Preon Size  
+add_sl_sound "mpreon" Pre-on Color  
+add_sl_sound "mpreopt" Pre-on Options  
+add_sl_sound "mpreonsz" Pre-on Size  
 add_sl_sound "mrandom" Random  
-add_sl_sound "rehrsbgn" Rehearse Begin  
-add_sl_sound "rehrsend" Rehearse End  
-add_sl_sound "rehrsnew"  Rehearse New  
-add_sl_sound "mresetc" Reset Colors  
+add_sl_sound "rehrsbgn" Begin Rehearsal  
+add_sl_sound "rehrsend" End Rehearsal  
+add_sl_sound "rehrsnew" New Rehearsal  
+add_sl_sound "mresetc" Re-set Colors  
 add_sl_sound "mretract" Retraction Color  
 add_sl_sound "mrtdelay" Retraction Delay  
 add_sl_sound "mrtopt" Retraction Options  
@@ -173,7 +173,7 @@ add_sl_sound "mselect"  Select
 add_sl_sound "mblade" Select Blade  
 add_sl_sound "meffect" Select Effect  
 add_sl_sound "moption" Select Option  
-add_sl_sound "mpreset" Select Preset  
+add_sl_sound "mpreset" Select Pre-set  
 add_sl_sound "mstylsel" Select Style  
 add_sl_sound "msetsub" Settings Menu  
 add_sl_sound "mstab" Stab Color  
@@ -193,13 +193,13 @@ add_sl_sound "mtwstoff" Twist Retraction
 add_sl_sound "mup"  Up  
 add_sl_sound "mvolts" Volts  
 add_sl_sound "voldown"  Volume Down  
-add_sl_sound "vmend" Volume Menu End  
+add_sl_sound "vmend" Exiting Volume Menu  
 add_sl_sound "volup"  Volume Up  
 add_sl_sound "mzoom"  Zooming In  
 
 # V2 sounds
 add_sl_sound "madjred" Adjust Red  
-add_sl_sound "madblue" Adjust Blue  
+add_sl_sound "madjblue" Adjust Blue  
 add_sl_sound "madjgren" Adjust Green  
 add_sl_sound "madjsat" Adjust Saturation  
 add_sl_sound "mselcol" Select Color  
@@ -208,11 +208,11 @@ add_sl_sound "muselcol" Use Selected Color
 add_sl_sound "mmpsetup" Move Preset Up  
 add_sl_sound "mmpsetdn" Move Preset Down  
 add_sl_sound "mmpsetbg" Move Preset To Beginning  
-add_sl_sound "mpsetins" Preset Inserted  
+add_sl_sound "mpsetins" Pre-set Inserted  
 add_sl_sound "mpset" Preset  
 add_sl_sound "medpsets" Edit Presets  
-add_sl_sound "minpset" Insert Selected Preset  
-add_sl_sound "mmpset" Move Selected Preset  
+add_sl_sound "minpset" Insert Selected Pre-set  
+add_sl_sound "mmpset" Move Selected Pre-set  
 add_sl_sound "mnopsel" No Preset Selected  
 add_sl_sound "mnostsel" No Style Selected  
 add_sl_sound "macolsty" Apply Colors From Selected Style  
@@ -226,6 +226,7 @@ add_sl_sound "mbuzz" end
 add_sl_sound "msdacc" SD Access
 add_sl_sound "mcantdlp" Cannot Delete Last Preset
 add_sl_sound "mstnoset" This style has no settings
+add_sl_sound "msequent" Sequential  
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
 
