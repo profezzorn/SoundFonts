@@ -211,7 +211,6 @@ add_sl_sound "mmpsetbg" Move Preset To Beginning
 add_sl_sound "mpsetins" Pre-set Inserted  
 add_sl_sound "mpset" Preset  
 add_sl_sound "medpsets" Edit Presets  
-add_sl_sound "mestyopt" Edit Style Options  
 add_sl_sound "minpset" Insert Selected Pre-set  
 add_sl_sound "mmpset" Move Selected Pre-set  
 add_sl_sound "mnopsel" No Preset Selected  
@@ -219,14 +218,14 @@ add_sl_sound "mnostsel" No Style Selected
 add_sl_sound "macolsty" Apply Colors From Selected Style  
 add_sl_sound "maargsty" Apply Style Options From Selected Style  
 add_sl_sound "macolall" Apply Colors To All Blades  
-add_sl_sound "mcolrst" Reset To Default Color  
-add_sl_sound "mrststys" Reset style settings  
+add_sl_sound "mcolrst" Reset To Default Color
+add_sl_sound "mrststys" Reset style settings
 add_sl_sound "mbld" Blade  
 add_sl_sound "mseconds" Seconds  
-add_sl_sound "mbuzz" end  
-add_sl_sound "msdacc" SD Access  
-add_sl_sound "mcantdlp" Cannot Delete Last Preset  
-add_sl_sound "mstnoset" This style has no settings  
+add_sl_sound "mbuzz" end
+add_sl_sound "msdacc" SD Access
+add_sl_sound "mcantdlp" Cannot Delete Last Preset
+add_sl_sound "mstnoset" This style has no settings
 add_sl_sound "msequent" Sequential  
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
