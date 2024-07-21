@@ -220,7 +220,7 @@ add_sl_sound "macolsty" Apply Colors From Selected Style
 add_sl_sound "maargsty" Apply Style Options From Selected Style  
 add_sl_sound "macolall" Apply Colors To All Blades  
 add_sl_sound "mcolrst" Reset To Default Color  
-add_sl_sound "mrststys" Reset style settings
+add_sl_sound "mrststys" Reset style settings  
 add_sl_sound "mbld" Blade  
 add_sl_sound "mseconds" Seconds  
 add_sl_sound "mbuzz" end
