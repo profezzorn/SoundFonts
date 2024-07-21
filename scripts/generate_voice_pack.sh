@@ -70,7 +70,7 @@ add_sl_sound "mnum/mnum18" 18
 add_sl_sound "mnum/mnum19" 19  
 add_sl_sound "mnum/mnum20" 20  
 add_sl_sound "thirty" 30  
-add_sl_sound "fourty" 40  
+add_sl_sound "forty" 40  
 add_sl_sound "fifty" 50  
 add_sl_sound "sixty" 60  
 add_sl_sound "seventy" 70  
