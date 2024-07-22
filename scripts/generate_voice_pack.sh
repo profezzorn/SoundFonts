@@ -7,17 +7,22 @@ LANGUAGE="${1-en}"
 
 DIR="voice_$LANGUAGE"
 
-add_sl_sound() {
-  output="$DIR/$1.wav"
+add_padded_sl_sound() {
+  PAD="$1"
+  output="$DIR/$2.wav"
   if [ ! -f "$output" ]; then
     odir=$(dirname "$output")
     echo "ODIR: $odir"
     mkdir -p $odir
-    shift
+    shift 2
     echo "$*" > in.txt
     ./speak.pl $LANGUAGE in.txt out.mp3
-    sox out.mp3 "$output" rate 44100
+    sox out.mp3 "$output" rate 44100 pad "$PAD"
   fi
+}
+
+add_sl_sound() {
+    add_padded_sl_sound 0 $*
 }
 
 
@@ -113,9 +118,9 @@ add_sl_sound "mclashth" Edit Clash Threshold
 add_sl_sound "mcolor" Edit Color  
 add_sl_sound "mcontrol" Edit Control Settings  
 add_sl_sound "mfont" Edit Font  
-add_sl_sound "medit"    Edit Mode  
-add_sl_sound "msetting" Edit Settings  
-add_sl_sound "mstyle" Edit Style  
+add_padded_sl_sound 1 "medit"    Edit Mode
+add_padded_sl_sound 1 "msetting" Edit Settings
+add_sl_sound "mstyle" Edit Style
 add_sl_sound "mstylset" Edit Style Settings  
 add_sl_sound "mtrack" Edit Track  
 add_sl_sound "mvolume" Edit Volume  
@@ -227,6 +232,7 @@ add_sl_sound "msdacc" SD Access
 add_sl_sound "mcantdlp" Cannot Delete Last Preset
 add_sl_sound "mstnoset" This style has no settings
 add_sl_sound "msequent" Sequential  
+add_sl_sound "mseting2" Edit Settings
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
 
