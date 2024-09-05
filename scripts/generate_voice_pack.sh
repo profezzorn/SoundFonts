@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Generates a simple V2 voice pack using google TTS
@@ -207,9 +208,7 @@ add_sl_sound "madjred" Adjust Red
 add_sl_sound "madjblue" Adjust Blue  
 add_sl_sound "madjgren" Adjust Green  
 add_sl_sound "madjsat" Adjust Saturation  
-add_sl_sound "mselcol" Select Color  
 add_sl_sound "mnoselcl" No Color Selected  
-add_sl_sound "muselcol" Use Selected Color  
 add_sl_sound "mmpsetup" Move Preset Up  
 add_sl_sound "mmpsetdn" Move Preset Down  
 add_sl_sound "mmpsetbg" Move Preset To Beginning  
@@ -233,6 +232,8 @@ add_sl_sound "mcantdlp" Cannot Delete Last Preset
 add_sl_sound "mstnoset" This style has no settings
 add_sl_sound "msequent" Sequential  
 add_sl_sound "mseting2" Edit Settings
+add_sl_sound "mpastec" Paste Color
+add_sl_sound "mcopyc2" Copy Color
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
 
