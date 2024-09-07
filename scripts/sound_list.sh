@@ -1,31 +1,4 @@
-
-#!/bin/bash
-
-# Generates a simple V2 voice pack using google TTS
-# See speak.pl for more details.
-
-LANGUAGE="${1-en}"
-
-DIR="voice_$LANGUAGE"
-
-add_padded_sl_sound() {
-  PAD="$1"
-  output="$DIR/$2.wav"
-  if [ ! -f "$output" ]; then
-    odir=$(dirname "$output")
-    echo "ODIR: $odir"
-    mkdir -p $odir
-    shift 2
-    echo "$*" > in.txt
-    ./speak.pl $LANGUAGE in.txt out.mp3
-    sox out.mp3 "$output" rate 44100 pad "$PAD"
-  fi
-}
-
-add_sl_sound() {
-    add_padded_sl_sound 0 $*
-}
-
+# Shell script, but not executable because it is sourced from other scripts.
 
 add_sl_sound "clrlst/clrlst01" Red  
 add_sl_sound "clrlst/clrlst02" Orange Red  
@@ -236,5 +209,3 @@ add_sl_sound "mpastec" Paste Color
 add_sl_sound "mcopyc2" Copy Color
 
 echo "voice_pack_version=2" >$DIR/voicepack.ini
-
-rm in.txt out.mp3
