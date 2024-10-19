@@ -1,30 +1,12 @@
-#!/bin/bash
+# Shell script, but not executable because it is sourced from other scripts.
 
-# Generates a simple V2 voice pack using google TTS
-# See speak.pl for more details.
-
-LANGUAGE="${1-en}"
-
-DIR="voice_$LANGUAGE"
-
-add_padded_sl_sound() {
-  PAD="$1"
-  output="$DIR/$2.wav"
-  if [ ! -f "$output" ]; then
-    odir=$(dirname "$output")
-    echo "ODIR: $odir"
-    mkdir -p $odir
-    shift 2
-    echo "$*" > in.txt
-    ./speak.pl $LANGUAGE in.txt out.mp3
-    sox out.mp3 "$output" rate 44100 pad "$PAD"
-  fi
+rm -f $DIR/colors.txt
+add_sl_color() {
+    NAME=$(printf "%02x%02x%02x" $1 $2 $3)
+    shift 3
+    echo >>$DIR/colors.txt $NAME
+    add_sl_sound colors/$NAME $*
 }
-
-add_sl_sound() {
-    add_padded_sl_sound 0 $*
-}
-
 
 add_sl_sound "clrlst/clrlst01" Red  
 add_sl_sound "clrlst/clrlst02" Orange Red  
@@ -207,9 +189,7 @@ add_sl_sound "madjred" Adjust Red
 add_sl_sound "madjblue" Adjust Blue  
 add_sl_sound "madjgren" Adjust Green  
 add_sl_sound "madjsat" Adjust Saturation  
-add_sl_sound "mselcol" Select Color  
 add_sl_sound "mnoselcl" No Color Selected  
-add_sl_sound "muselcol" Use Selected Color  
 add_sl_sound "mmpsetup" Move Preset Up  
 add_sl_sound "mmpsetdn" Move Preset Down  
 add_sl_sound "mmpsetbg" Move Preset To Beginning  
@@ -233,7 +213,92 @@ add_sl_sound "mcantdlp" Cannot Delete Last Preset
 add_sl_sound "mstnoset" This style has no settings
 add_sl_sound "msequent" Sequential  
 add_sl_sound "mseting2" Edit Settings
+add_sl_sound "mpastec" Paste Color
+add_sl_sound "mcopyc2" Copy Color
 
-echo "voice_pack_version=2" >$DIR/voicepack.ini
+add_sl_color 0  0  0 Black
+add_sl_color 255  0  0 Red
+add_sl_color 255  244  244 Snow
+add_sl_color 255  255  255 White
+add_sl_color 255  14  0 Orange Red
+add_sl_color 255  31  15 Tomato
+add_sl_color 255  24  0 Molten Core
+add_sl_color 255  199  193 Misty Rose
+add_sl_color 255  33  0 Safety Orange
+add_sl_color 255  55  19 Coral
+add_sl_color 255  91  50 Light Salmon
+add_sl_color 255  55  0 Orange Juice
+add_sl_color 255  68  0 Dark Orange
+add_sl_color 255  97  0 Orange
+add_sl_color 255  233  219 Sea Shell
+add_sl_color 255  180  125 Peach Puff
+add_sl_color 255  115  0 Imperial Yellow
+add_sl_color 255  199  142 Bisque
+add_sl_color 255  135  0 Amber
+add_sl_color 255  187  108 Navajo White
+add_sl_color 255  213  157 Blanched Almond
+add_sl_color 255  199  119 Moccasin
+add_sl_color 255  221  171 Papaya Whip
+add_sl_color 255  244  223 Floral White
+add_sl_color 255  168  0 Cyber Yellow
+add_sl_color 255  176  0 Schoolbus
+add_sl_color 255  186  0 SuperSaiyan
+add_sl_color 255  239  184 Cornsilk
+add_sl_color 255  201  0 Star
+add_sl_color 255  221  0 Canary Yellow
+add_sl_color 255  244  157 LemonChiffon
+add_sl_color 255  237  0 Lemon
+add_sl_color 255  255  0 Yellow
+add_sl_color 255  255  191 Light Yellow
+add_sl_color 255  255  223 Ivory
+add_sl_color 246  255  0 Electric Banana
+add_sl_color 231  255  0 Busy Bee
+add_sl_color 219  255  0 Zeus Bolt
+add_sl_color 186  255  0 Lime Zest
+add_sl_color 156  255  0 Electric Lime
+add_sl_color 135  255  0 Limoncello
+add_sl_color 108  255  6 Green Yellow
+add_sl_color 55  255  0 Chartreuse
+add_sl_color 0  255  0 Green
+add_sl_color 223  255  223 HoneyDew
+add_sl_color 28  255  28 Pale Green
+add_sl_color 0  255  22 Cathode Green
+add_sl_color 0  255  55 Spring Green
+add_sl_color 233  255  244 Mint Cream
+add_sl_color 0  255  128 Minty Paradise
+add_sl_color 55  255  169 Aquamarine
+add_sl_color 0  255  156 Plunge Pool
+add_sl_color 0  255  201 Vibrant Mint
+add_sl_color 0  255  219 Master Sword Blue
+add_sl_color 0  255  255 Cyan
+add_sl_color 191  255  255 Light Cyan
+add_sl_color 223  255  255 Azure
+add_sl_color 0  219  255 Brain Freeze
+add_sl_color 0  135  255 Deep Sky Blue
+add_sl_color 223  239  255 Alice Blue
+add_sl_color 2  72  255 Dodger Blue
+add_sl_color 0  33  255 Blue Ribbon
+add_sl_color 0  13  255 Rare Blue
+add_sl_color 0  0  255 Blue
+add_sl_color 239  239  255 Ghost White
+add_sl_color 13  0  255 Overdue Blue
+add_sl_color 55  0  255 Violent Violet
+add_sl_color 71  0  255 Electric Violet
+add_sl_color 90  0  255 Vivid Violet
+add_sl_color 127  0  255 Electric Purple
+add_sl_color 186  0  255 Psychedelic Purple
+add_sl_color 255  0  255 Magenta
+add_sl_color 255  80  254 Flamingo
+add_sl_color 255  0  156 Hot Magenta
+add_sl_color 255  0  128 Brutal Pink
+add_sl_color 255  36  118 Hot Pink
+add_sl_color 255  223  233 Lavender Blush
+add_sl_color 255  0  75 Deep Pink
+add_sl_color 255  0  55 Neon Rose
+add_sl_color 255  136  154 Pink
+add_sl_color 255  0  38 Vivid Raspberry
+add_sl_color 255  121  138 Light Pink
+add_sl_color 255  0  19 Halt Red
 
-rm in.txt out.mp3
+
+echo "voice_pack_version=2"  $DIR/voicepack.ini
