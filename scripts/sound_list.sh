@@ -208,7 +208,7 @@ add_sl_sound "mrststys" Reset style settings
 add_sl_sound "mbld" Blade  
 add_sl_sound "mseconds" Seconds  
 add_sl_sound "mbuzz" end
-add_sl_sound "msdacc" SD Access
+add_sl_sound "msdacc" SD Card Access
 add_sl_sound "mcantdlp" Cannot Delete Last Preset
 add_sl_sound "mstnoset" This style has no settings
 add_sl_sound "msequent" Sequential  
