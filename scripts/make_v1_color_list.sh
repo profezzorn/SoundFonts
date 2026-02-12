@@ -18,6 +18,7 @@ add_color() {
     HEX=$(printf "%02x%02x%02x" $R $G $B)
     mkdir -p colors
     cp clrlst/clrlst$NUM.wav colors/$HEX.wav
+    echo >>colors.txt $HEX
 }
 
 ## V1 voicepack colors
@@ -42,11 +43,9 @@ add_color 255   0 255  18 "magenta"
 add_color 255   0  75  19 "deep pink"
 add_color 100 100 150  20 "silver"
 add_color  85  85 200  21 "glacier"
-add_color 180 180 255  22 "ice white
-add_color 191 255 255> 23 "light cyan"
+add_color 180 180 255  22 "ice white"
+add_color 191 255 255  23 "light cyan"
 add_color 255 199 119  24 "moccasin"
-add_color 255 244 157> 25 "lemon chiffon"
+add_color 255 244 157  25 "lemon chiffon"
 add_color 255 187 108  26 "navajo white"
 add_color 255 255 255  27 "white"
-
-
