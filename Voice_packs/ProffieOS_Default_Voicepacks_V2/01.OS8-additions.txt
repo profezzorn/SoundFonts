@@ -1,0 +1,41 @@
+OS8 V2 additions
+
+Proffie OS8 System Menu prompts
+
+madjred.wav - "Adjust Red"
+madjblue.wav - "Adjust Blue"
+madjgren.wav - "Adjust Green"
+madjsat.wav - "Adjust Saturation"
+
+mnoselcl.wav - "No Color Selected"
+mpastec.wav - "Paste Color"
+mcopyc2.wav - "Copy Color"
+
+mmpsetup.wav - "Move Preset Up"
+mmpsetdn.wav - "Move Preset Down"
+mmpsetbg.wav - "Move Preset to Beginning"
+mpsetins.wav - "Preset Inserted"
+mpset.wav - "Preset"
+medpsets.wav - "Edit Presets"
+minpset.wav - "Insert Selected Preset"
+mmpset.wav - "Move Selected Preset"
+mnopsel.wav - "No Preset Selected"
+
+mnostsel.wav - "No Style Selected"
+macolsty.wav - "Apply Colors from Selected Style"
+maargsty.wav - "Apply Style Settings from Selected Style"
+
+macolall.wav - "Apply Colors to All Blades"
+mcolrst.wav - "Reset to Default Color"
+mrststys.wav - "Reset Style Settings"
+
+mbld.wav - "Blade"
+mseconds.wav - "Seconds"
+
+msdacc.wav - "SD Access"
+msequent.wav - "Sequential"
+
+mbuzz.wav - End of list "Buzz" sound
+mcantdlp.wav - "Cannot Delete Last Preset"
+mstnoset.wav - "This Style Has No Settings"
+mseting2.wav - "Edit Settings V2"  // NO pause
